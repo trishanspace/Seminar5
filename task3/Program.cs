@@ -6,7 +6,7 @@ int[] array = GenerateArray(10, 100, 5);
 PrintArray(array);
 int min = GetMinValue(array);
 int max = GetMaxValue(array);
-int diff = GetDifferenceOfExtremeNumbers(min);
+int diff = GetDifferenceOfExtremeNumbers(array.Length);
 
 
 void PrintArray(int[] array)
