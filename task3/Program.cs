@@ -19,7 +19,6 @@ Console.WriteLine($"Разница между максимальным и мин
 int GetMinValue(int[] array)
 {
     int min = array[0];
-
     for (int i = 0; i < array.Length; i++)
     {
         {
@@ -34,7 +33,6 @@ int GetMinValue(int[] array)
 int GetMaxValue(int[] array)
 {
     int max = array[0];
-
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] > max)
@@ -49,7 +47,7 @@ int GetDifferenceOfExtremeNumbers(int diff)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        if (i < array.Length)
+        if (i <= array.Length)
             diff = max - min;
 
     }
